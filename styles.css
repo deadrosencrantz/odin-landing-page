@@ -1,3 +1,41 @@
-p {
-    color:red;    
+body {
+    display: flex;
+    flex-direction: column;
+    font: Roboto, Courier, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#header,
+.hero-header {
+    background-color: #1f2937;
+    color:white;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+#hero-image {
+   width: 319px;
+   height: 244px; 
 }
