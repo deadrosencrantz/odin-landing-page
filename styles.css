@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', Courier, sans-serif;
+    font-family: 'Roboto';
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -44,11 +44,28 @@ ul {
 li {
     list-style: none;
 }
+.left,
+.right {
+.flex 1 1 auto;
+}
 
 .hero-header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-left {
+  flex: 0 1 350px;
+}
+
+#hero-image {  
+  max-width: 350px; 
+}
+
+
+.hero-right {
+    flex: 0 1 350px;
 }
 
 #hero-button {
@@ -60,7 +77,3 @@ li {
     border-radius: 5px;
 }
 
-#hero-image {
-   width: 319px;
-   height: 200px; 
-}
