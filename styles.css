@@ -24,7 +24,8 @@ a {
 
 
 #header,
-.hero-header {
+.hero-header,
+footer {
     background-color: #1f2937;
     color:#f9faf8;
 }
@@ -253,4 +254,11 @@ li {
     max-width: 100px;
     max-height: 30px;
     align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
 }
