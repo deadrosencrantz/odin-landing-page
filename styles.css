@@ -143,14 +143,17 @@ li {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    gap:40px;
 }
 
 .labkidbox {
     flex: 1 1 100px;
     display: flex;
     flex-direction: column;
-    color: #949aa7
+    color: #949aa7;
+    align-items: space-evenly;
+    justify-items: center;
+    margin: 30px;
+    padding: 10px;
 }
 
 .labkid {
@@ -159,14 +162,17 @@ li {
     height : 100%;
     object-fit : fill;
     object-position: center;
+    min-height: 120px;
 }
 
 .labkidbox p {
-   flex: 2 1 100px;
+    flex: 1 1 100px;
+    text-wrap: wrap;
+    max-height: 7em;
 }
 
 .quote-box {
-    background-color: #e5e7eb;
+    background-color: hsl(220, 13%, 91%);
     color: #1f2937;
     display: flex;
     flex-direction: column;
