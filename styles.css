@@ -116,6 +116,7 @@ li {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    background-color: white;
     
 }
 
@@ -152,3 +153,32 @@ li {
     object-position: center;
 }
 
+.quote-box {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    text-wrap: wrap;
+    font-weight: lighter;
+    font-style: italic;
+    align-self: center;
+    text-justify: left;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-bottom: 1px;
+}
+
+
+.attribution {
+    font-size: 20px;
+    font-weight: 900;
+    align-self: center;
+    margin-left: 500px;
+    margin-bottom: 79px;
+}
