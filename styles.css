@@ -72,6 +72,7 @@ li {
    justify-content: center;
 }
 
+
 .hero-left-inner sub {
     margin-bottom: 20px;
 }
@@ -80,6 +81,7 @@ li {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .hero-right {
