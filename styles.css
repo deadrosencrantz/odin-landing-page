@@ -160,6 +160,10 @@ li {
     object-position: center;
 }
 
+.labkidbox p {
+   flex: 2 1 100px;
+}
+
 .quote-box {
     background-color: #e5e7eb;
     color: #1f2937;
