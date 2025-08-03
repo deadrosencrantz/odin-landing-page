@@ -141,6 +141,7 @@ li {
     flex: 1 1 100px;
     display: flex;
     flex-direction: column;
+    color: #949aa7
 }
 
 .labkid {
@@ -150,3 +151,4 @@ li {
     object-fit : fill;
     object-position: center;
 }
+
