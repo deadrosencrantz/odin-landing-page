@@ -170,8 +170,8 @@ li {
     align-self: center;
     text-justify: left;
     max-width: 900px;
-    margin-top: 100px;
-    margin-bottom: 1px;
+    padding-top: 100px;
+    padding-bottom: 1px;
 }
 
 
@@ -181,4 +181,60 @@ li {
     align-self: center;
     margin-left: 500px;
     margin-bottom: 79px;
+}
+
+
+.call {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tardis {
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.call-text {
+    padding: 20px;
+    flex: 1 1 100px;
+    margin-left: 75px;
+}
+
+.call-button {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.call-text h5 {
+    font-size: 20px;
+    color:#f9faf8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.call-text p {
+  color:#f9faf8;
+  text-wrap: wrap;  
+}
+
+.call-button button {
+    background-color: #3882f6;
+    color: white;
+    border: solid 1px white;
+    padding:  5px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    flex: 0 0 auto;
+    max-width: 100px;
+    max-height: 30px;
+    align-self: center;
 }
