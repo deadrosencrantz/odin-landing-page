@@ -266,5 +266,9 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 12px;
+}
+
+footer p {
+    padding:10px;
+    margin-bottom: 30px;
 }
